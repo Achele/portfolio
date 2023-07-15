@@ -2,15 +2,15 @@ import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section id="about" className="aboutMe">
-      <p>
+    <section id="about" className="py-8 px-16 w-4/5">
+      <p className="leading-8 py-4 text-lg">
         I am a software developer based in Abuja, Nigeria. I enjoy creating
         visually stunning and engaging web experiences. My passion for making
         things and the challenge of bringing a design concept to life motivate
         me and I am always looking for new ways to improve myself. Currently, am
         in the job market searching for my first developer job.
       </p>
-      <ul className="socials">
+      <ul className="flex">
         <li>
           <a
             href="https://twitter.com/ojoachele"
@@ -18,13 +18,13 @@ const About = () => {
             target="_blank"
           >
             {" "}
-            <FaTwitter />{" "}
+            <FaTwitter className="mr-4 " />{" "}
           </a>
         </li>
         <li>
           <a href="https://github.com/Achele" rel="noreferrer" target="_blank">
             {" "}
-            <FaGithub />{" "}
+            <FaGithub className="mr-4 " />{" "}
           </a>
         </li>
         <li>
@@ -34,7 +34,7 @@ const About = () => {
             target="_blank"
           >
             {" "}
-            <FaLinkedin />{" "}
+            <FaLinkedin className="mr-4 " />{" "}
           </a>
         </li>
       </ul>

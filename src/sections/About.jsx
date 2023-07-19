@@ -22,7 +22,7 @@ const About = () => {
           </a>
         </li>
         <li>
-          <a href="https://github.com/Achele" rel="noreferrer" target="_blank">
+          <a href="https://github.com/Achele">
             {" "}
             <FaGithub className="mr-4 " />{" "}
           </a>

@@ -26,8 +26,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className="flex items-center xs:justify-between  p-2 bg-white sticky top-0 shadow ">
-      <h1 className={`${styles.navTitle} `}>Achez</h1>
+    <header className="flex items-center xs:justify-between lg:justify-around  p-2 bg-white sticky top-0 shadow ">
+      <h1 className="text-pinkBtn font-bold">Achez</h1>
       {/* <nav
         className={`links ${
           display ? "visible" : "hidden"
@@ -36,17 +36,20 @@ const Navbar = () => {
       <div
         className={`links ${
           display ? "visible" : "hidden"
-        }  xs:fixed lg:static lg:flex lg:items-center lg:justify-center top-20 md:top-20 lg:top-20 left-0  bg-blue-400 bg-opacity-6 border-l border-gray-300 z-50  md:bg-white md:left-none md:relative md:border-none md:z-0 `}
+        }  xs:fixed xs:py-4 xs:px-4 lg:static lg:flex lg:items-center lg:justify-center bottom-20 md:top-20 lg:top-20 left-0  bg-gray-200 bg-opacity-6 border-l border-gray-300 z-50  md:bg-white md:left-none md:relative md:border-none md:z-0 `}
       >
         {/* <div className="flex flex-col items-center py-4"> */}
-        <ul className="space-y-4 lg:flex lg:items-center lg:justify-between">
+        <ul className="space-y-4 lg:flex lg:items-center ">
           <li
             onClick={() => {
               setDisplay(true);
               scroll.scrollToTop();
             }}
           >
-            <Link to="/" className={`${styles.navLinks} flex items-center`}>
+            <Link
+              to="/"
+              className={`${styles.navLinks} flex items-center hover:text-pinkBtn`}
+            >
               <FaHome /> Home
             </Link>
           </li>
@@ -60,7 +63,10 @@ const Navbar = () => {
               });
             }}
           >
-            <Link to="/" className={`${styles.navLinks} flex items-center`}>
+            <Link
+              to="/"
+              className={`${styles.navLinks} flex items-center hover:text-pinkBtn`}
+            >
               <FaUser /> About
             </Link>
           </li>
@@ -74,7 +80,10 @@ const Navbar = () => {
               });
             }}
           >
-            <Link to="/" className={`${styles.navLinks} flex items-center`}>
+            <Link
+              to="/"
+              className={`${styles.navLinks} flex items-center hover:text-pinkBtn`}
+            >
               <FaCode /> Skills
             </Link>
           </li>
@@ -88,7 +97,10 @@ const Navbar = () => {
               });
             }}
           >
-            <Link to="/" className={`${styles.navLinks} flex items-center`}>
+            <Link
+              to="/"
+              className={`${styles.navLinks} flex items-center hover:text-pinkBtn active:underline hover:underline`}
+            >
               <FaShoppingBag /> Projects
             </Link>
           </li>
@@ -98,7 +110,7 @@ const Navbar = () => {
             href="https://drive.google.com/file/d/1Z0LsVdzbN2qKeCxZ-VgYtUQ1fpm396-h/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
-            className="text-primary border border-primary rounded-full px-4 py-1"
+            className="text-primary border border-primary rounded-full px-4 py-1 hover:bg-primary hover:text-white"
           >
             Download CV
           </a>

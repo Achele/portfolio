@@ -26,8 +26,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className="flex items-center    p-2 bg-white sticky top-0 shadow ">
-      <h1 className="text-pinkBtn font-bold">Achez</h1>
+    <header className="flex items-center md:py-0    p-2 bg-white sticky top-0 shadow ">
+      <h1 className="text-pinkBtn text-lg font-bold lg:px-14 md:px-7">Achez</h1>
       {/* <nav
         className={`links ${
           display ? "visible" : "hidden"
@@ -36,10 +36,10 @@ const Navbar = () => {
       <div
         className={`links ${
           display ? "visible" : "hidden"
-        }  xs:fixed xs:py-4 xs:px-4 lg:static lg:flex lg:items-center lg:justify-center bottom-20 md:top-20 lg:top-20 left-0  bg-gray-200 bg-opacity-6 border-l border-gray-300 z-50  md:bg-white md:left-none md:relative md:border-none md:z-0 lg:py-0`}
+        }  xs:fixed xs:py-4 xs:px-4 md:px-7 sm:static md:static md:items-center md:flex lg:static lg:flex lg:items-center lg:justify-between bottom-20 md:top-20 lg:top-20 left-0  bg-gray-200 bg-opacity-6 border-l border-gray-300 z-50  md:bg-white md:left-none  md:border-none md:z-0 lg:py-0 lg:px-7`}
       >
         {/* <div className="flex flex-col items-center py-4"> */}
-        <ul className="space-y-4 lg:flex lg:items-center">
+        <ul className="space-y-4 sm:flex  lg:flex lg:items-center md:ml-20 lg:ml-60">
           <li
             onClick={() => {
               setDisplay(true);
@@ -48,9 +48,24 @@ const Navbar = () => {
           >
             <Link
               to="/"
-              className={`${styles.navLinks} flex items-center hover:text-pinkBtn lg:pb-0`}
+              className={`${styles.navLinks} hidden items-center hover:text-pinkBtn lg:pb-0`}
             >
               <FaHome /> Home
+            </Link>
+          </li>
+
+          <li
+            onClick={() => {
+              setDisplay(true);
+              scroll.scrollToTop();
+            }}
+          >
+            <Link
+              to="/"
+              className={`${styles.navLinks} flex items-center hover:text-pinkBtn lg:px-4`}
+            >
+              <FaHome />
+              Home
             </Link>
           </li>
 
@@ -65,7 +80,7 @@ const Navbar = () => {
           >
             <Link
               to="/"
-              className={`${styles.navLinks} flex items-center hover:text-pinkBtn`}
+              className={`${styles.navLinks} flex items-center hover:text-pinkBtn lg:px-4`}
             >
               <FaUser /> About
             </Link>
@@ -82,7 +97,7 @@ const Navbar = () => {
           >
             <Link
               to="/"
-              className={`${styles.navLinks} flex items-center hover:text-pinkBtn`}
+              className={`${styles.navLinks} flex items-center hover:text-pinkBtn lg:px-4`}
             >
               <FaCode /> Skills
             </Link>
@@ -99,7 +114,7 @@ const Navbar = () => {
           >
             <Link
               to="/"
-              className={`${styles.navLinks} flex items-center hover:text-pinkBtn active:underline hover:underline`}
+              className={`${styles.navLinks} flex items-center hover:text-pinkBtn active:underline hover:underline lg:px-4`}
             >
               <FaShoppingBag /> Projects
             </Link>
@@ -110,7 +125,7 @@ const Navbar = () => {
             href="https://drive.google.com/file/d/1Z0LsVdzbN2qKeCxZ-VgYtUQ1fpm396-h/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
-            className="text-primary border border-primary rounded-full px-4 py-1 hover:bg-primary hover:text-white"
+            className=" border  rounded-full px-4 py-1 bg-pinkBtn text-white hover:bg-primary lg:ml-60 md:ml-40"
           >
             Download CV
           </a>
@@ -118,7 +133,7 @@ const Navbar = () => {
         {/* </div> */}
       </div>
       <button
-        className={`${styles.mobileNav} xs:ml-56`}
+        className={`${styles.mobileNav} xs:ml-56 `}
         onClick={handleDisplay}
         aria-expanded={display}
       ></button>

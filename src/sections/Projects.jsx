@@ -73,22 +73,27 @@ const Projects = () => {
               account, shorten long url, copy shortened link and get analytics
               of the created link.
             </p>
-            <a
-              href="https://shortly-21c95.firebaseapp.com/"
-              rel="noreferrer"
-              target="_blank"
-              className="text-white border rounded-full bg-pinkBtn py-1 px-4 md:text-xs md:px-1 sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white"
-            >
-              Live site
-            </a>
-            <a
-              href="https://github.com/Achele/scissor"
-              rel="noreferrer"
-              target="_blank"
-              className="border-primary rounded-full text-primary border py-1 px-4 lg:px-4 sm:text-xs sm:px-0  sm:text-center sm:py-1 hover:bg-primary hover:text-white"
-            >
-              Repo
-            </a>
+            <div className="sm:flex gap-2 sm:flex-col lg:flex-row">
+              <span>
+                <a
+                  href="https://shortly-21c95.firebaseapp.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-white border rounded-full bg-pinkBtn py-1 px-4 md:text-xs md:px-1 sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white"
+                >
+                  Live site
+                </a>
+              </span>
+
+              <a
+                href="https://github.com/Achele/scissor"
+                rel="noreferrer"
+                target="_blank"
+                className="border-primary rounded-full text-primary border py-1 px-4 lg:px-4 sm:text-xs sm:px-0  sm:text-center sm:py-1 hover:bg-primary hover:text-white"
+              >
+                Repo
+              </a>
+            </div>
           </div>
         </div>
 
@@ -111,22 +116,27 @@ const Projects = () => {
               Achez mall is an online shopping store created with Vue, that
               consumes the dummyjson API and authenticates user with firebase
             </p>
-            <a
-              href="https://achez-mall.netlify.app/"
-              rel="noreferrer"
-              target="_blank"
-              className="text-white border rounded-full bg-pinkBtn py-1 px-4 md:text-xs md:px-1 sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white"
-            >
-              Live site
-            </a>
-            <a
-              href="https://github.com/Achele/achez-mall"
-              rel="noreferrer"
-              target="_blank"
-              className="border-primary rounded-full text-primary border py-1 px-4 lg:px-4 sm:text-xs sm:px-0  sm:text-center sm:py-1 hover:bg-primary hover:text-white"
-            >
-              Repo
-            </a>
+            <div className="sm:flex gap-2 sm:flex-col lg:flex-row">
+              <span>
+                <a
+                  href="https://achez-mall.netlify.app/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-white border rounded-full bg-pinkBtn py-1 px-4 md:text-xs md:px-1 sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white"
+                >
+                  Live site
+                </a>
+              </span>
+
+              <a
+                href="https://github.com/Achele/achez-mall"
+                rel="noreferrer"
+                target="_blank"
+                className="border-primary rounded-full text-primary border py-1 px-4 lg:px-4 sm:text-xs sm:px-0  sm:text-center sm:py-1 hover:bg-primary hover:text-white"
+              >
+                Repo
+              </a>
+            </div>
           </div>
         </div>
 
@@ -150,22 +160,26 @@ const Projects = () => {
               and details of a single repo. The Github api was consumed to
               create app.
             </p>
-            <a
-              href="https://altschool-exam-achele.vercel.app/"
-              rel="noreferrer"
-              target="_blank"
-              className="text-white border rounded-full bg-pinkBtn py-1 px-4 md:text-xs md:px-1 sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white"
-            >
-              Live site
-            </a>
-            <a
-              href="https://github.com/Achele/Altschool-Exam"
-              rel="noreferrer"
-              target="_blank"
-              className="border-primary rounded-full text-primary border py-1 px-4 lg:px-4 sm:text-xs sm:px-0  sm:text-center sm:py-1 hover:bg-primary hover:text-white"
-            >
-              Repo
-            </a>
+            <div className="sm:flex gap-2 sm:flex-col lg:flex-row">
+              <span>
+                <a
+                  href="https://altschool-exam-achele.vercel.app/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-white border rounded-full bg-pinkBtn py-1 px-4 md:text-xs md:px-1 sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white"
+                >
+                  Live site
+                </a>
+              </span>
+              <a
+                href="https://github.com/Achele/Altschool-Exam"
+                rel="noreferrer"
+                target="_blank"
+                className="border-primary rounded-full text-primary border py-1 px-4 lg:px-4 sm:text-xs sm:px-0  sm:text-center sm:py-1 hover:bg-primary hover:text-white"
+              >
+                Repo
+              </a>
+            </div>
           </div>
         </div>
       </section>

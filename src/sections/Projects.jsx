@@ -30,13 +30,13 @@ const Projects = () => {
               institutions decide who is best fit to get a loan without any
               interference and bias.
             </p>
-            <div className="sm:flex gap-2 sm:flex-col lg:flex-row">
+            <div className="sm:flex gap-2 sm:flex-col md:flex-row lg:flex-row">
               <span>
                 <a
                   href="https://smartlend-app.netlify.app"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-white border rounded-full bg-pinkBtn py-1 px-4 md:text-xs md:px-1 sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white"
+                  className="text-white border rounded-full bg-pinkBtn py-1 px-4  md:px-4 sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white"
                 >
                   Live site
                 </a>
@@ -45,7 +45,7 @@ const Projects = () => {
                 href="https://github.com/Achele/scissor"
                 rel="noreferrer"
                 target="_blank"
-                className="border-primary rounded-full text-primary border py-1 px-4 lg:px-4 sm:text-xs sm:px-0  sm:text-center sm:py-1 hover:bg-primary hover:text-white"
+                className="border-primary rounded-full text-primary border py-1 px-4 lg:px-4  md:px-6 sm:text-xs md:text-xs sm:px-0  sm:text-center sm:py-1 hover:bg-primary hover:text-white"
               >
                 Repo
               </a>
@@ -73,13 +73,13 @@ const Projects = () => {
               account, shorten long url, copy shortened link and get analytics
               of the created link.
             </p>
-            <div className="sm:flex gap-2 sm:flex-col lg:flex-row">
+            <div className="sm:flex gap-2 sm:flex-col md:flex-row lg:flex-row">
               <span>
                 <a
                   href="https://shortly-21c95.firebaseapp.com/"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-white border rounded-full bg-pinkBtn py-1 px-4 md:text-xs md:px-1 sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white"
+                  className="text-white border rounded-full bg-pinkBtn py-1 px-4 md:px-4 md:text-xs sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white"
                 >
                   Live site
                 </a>
@@ -89,7 +89,7 @@ const Projects = () => {
                 href="https://github.com/Achele/scissor"
                 rel="noreferrer"
                 target="_blank"
-                className="border-primary rounded-full text-primary border py-1 px-4 lg:px-4 sm:text-xs sm:px-0  sm:text-center sm:py-1 hover:bg-primary hover:text-white"
+                className="border-primary rounded-full text-primary border py-1 px-4 md:px-6 lg:px-4 sm:text-xs sm:px-0 md:text-xs  sm:text-center sm:py-1 hover:bg-primary hover:text-white"
               >
                 Repo
               </a>
@@ -116,13 +116,13 @@ const Projects = () => {
               Achez mall is an online shopping store created with Vue, that
               consumes the dummyjson API and authenticates user with firebase
             </p>
-            <div className="sm:flex gap-2 sm:flex-col lg:flex-row">
+            <div className="sm:flex gap-2 sm:flex-col md:flex-row lg:flex-row">
               <span>
                 <a
                   href="https://achez-mall.netlify.app/"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-white border rounded-full bg-pinkBtn py-1 px-4 md:text-xs md:px-1 sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white"
+                  className="text-white border rounded-full bg-pinkBtn py-1 px-4 md:text-xs md:px-4 sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white"
                 >
                   Live site
                 </a>
@@ -132,7 +132,7 @@ const Projects = () => {
                 href="https://github.com/Achele/achez-mall"
                 rel="noreferrer"
                 target="_blank"
-                className="border-primary rounded-full text-primary border py-1 px-4 lg:px-4 sm:text-xs sm:px-0  sm:text-center sm:py-1 hover:bg-primary hover:text-white"
+                className="border-primary rounded-full text-primary border py-1 px-4 md:px-6 md:text-xs lg:px-4 sm:text-xs sm:px-0  sm:text-center sm:py-1 hover:bg-primary hover:text-white"
               >
                 Repo
               </a>
@@ -160,13 +160,13 @@ const Projects = () => {
               and details of a single repo. The Github api was consumed to
               create app.
             </p>
-            <div className="sm:flex gap-2 sm:flex-col lg:flex-row">
+            <div className="sm:flex gap-2 sm:flex-col md:flex-row lg:flex-row">
               <span>
                 <a
                   href="https://altschool-exam-achele.vercel.app/"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-white border rounded-full bg-pinkBtn py-1 px-4 md:text-xs md:px-1 sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white"
+                  className="text-white border rounded-full bg-pinkBtn py-1 px-4 md:px-4 md:text-xs  sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white"
                 >
                   Live site
                 </a>
@@ -175,7 +175,7 @@ const Projects = () => {
                 href="https://github.com/Achele/Altschool-Exam"
                 rel="noreferrer"
                 target="_blank"
-                className="border-primary rounded-full text-primary border py-1 px-4 lg:px-4 sm:text-xs sm:px-0  sm:text-center sm:py-1 hover:bg-primary hover:text-white"
+                className="border-primary rounded-full text-primary border py-1 px-4 lg:px-4 sm:text-xs sm:px-0  sm:text-center sm:py-1 md:px-6 md:text-xs hover:bg-primary hover:text-white"
               >
                 Repo
               </a>

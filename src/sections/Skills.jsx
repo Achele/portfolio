@@ -11,7 +11,7 @@ import {
 
 const Skills = () => {
   return (
-    <section className="w-3/4 my-4 mx-auto pb-4" id="skills">
+    <section className="w-3/4 my-4 mx-auto pb-4 xs:px-3" id="skills">
       <h1 className="font-bold py-4">SKILLS</h1>
       <ul className="grid grid-cols-4 gap-4">
         <li className=" ">
@@ -21,10 +21,10 @@ const Skills = () => {
           <FaCss3 className="text-blue-500 w-12 text-2xl" /> CSS3
         </li>
         <li>
-          <FaJsSquare className="text-yellow-500 w-14 text-2xl" />
+          <FaJsSquare className="text-yellow-500 w-14 text-2xl " />
           JavaScript
         </li>
-        <li>
+        <li className="xs:pl-4">
           <FaReact className="text-green-300 w-12 text-2xl" /> ReactJs
         </li>
         <li>

@@ -9,7 +9,7 @@ const Projects = () => {
     <>
       <section className="bg-blue-400 bg-opacity-10 py-8 px-6" id="projects">
         <h1 className="font-bold uppercase py-4 pl-14 lg:mx-40 ">projects</h1>
-        {/* <section className="projects"> */}
+
         <div className="w-4/5 lg:w-1/2 lg:mb-6 max-w-full h-full flex flex-col sm:flex-row  items-center justify-center shadow-md rounded-lg overflow-auto p-4 my-2 mx-auto bg-white">
           <img
             src={Smartlend}
@@ -183,7 +183,6 @@ const Projects = () => {
           </div>
         </div>
       </section>
-      {/* </main> */}
     </>
   );
 };

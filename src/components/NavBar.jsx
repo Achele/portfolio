@@ -30,17 +30,12 @@ const Navbar = () => {
       <h1 className="text-pinkBtn text-lg font-bold xs:px-4 lg:px-14 md:px-7">
         Achez
       </h1>
-      {/* <nav
-        className={`links ${
-          display ? "visible" : "hidden"
-        }  xs:fixed top-20  left-0  bg-blue-400 bg-opacity-6 border-l border-gray-300 z-50  md:bg-white md:left-none md:relative md:border-none md:z-0 `}
-      > */}
+
       <div
         className={`links ${
           display ? "visible" : "hidden"
         }  xs:fixed xs:py-4 xs:px-4 md:px-7 sm:static md:static md:items-center md:flex lg:static lg:flex lg:items-center lg:justify-between bottom-20 md:top-20 lg:top-20 left-0  bg-gray-200 bg-opacity-6 border-l border-gray-300 z-50  md:bg-white md:left-none  md:border-none md:z-0 lg:py-0 lg:px-7`}
       >
-        {/* <div className="flex flex-col items-center py-4"> */}
         <ul className="space-y-4 sm:flex  lg:flex lg:items-center md:ml-20 lg:ml-60">
           <li
             onClick={() => {
@@ -76,7 +71,7 @@ const Navbar = () => {
               setDisplay(true);
               scroller.scrollTo("about", {
                 smooth: true,
-                offset: -80, // adjust the offset according to your needs
+                offset: -80,
               });
             }}
           >
@@ -93,7 +88,7 @@ const Navbar = () => {
               setDisplay(true);
               scroller.scrollTo("skills", {
                 smooth: true,
-                offset: -80, // adjust the offset according to your needs
+                offset: -80,
               });
             }}
           >
@@ -110,7 +105,7 @@ const Navbar = () => {
               setDisplay(true);
               scroller.scrollTo("projects", {
                 smooth: true,
-                offset: -80, // adjust the offset according to your needs
+                offset: -80,
               });
             }}
           >
@@ -132,14 +127,12 @@ const Navbar = () => {
             Download CV
           </a>
         </div>
-        {/* </div> */}
       </div>
       <button
         className={`${styles.mobileNav} xs:ml-56 `}
         onClick={handleDisplay}
         aria-expanded={display}
       ></button>
-      {/* </nav> */}
     </header>
   );
 };

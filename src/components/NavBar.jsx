@@ -27,7 +27,9 @@ const Navbar = () => {
 
   return (
     <header className="flex items-center md:py-0    p-2 bg-white sticky top-0 shadow ">
-      <h1 className="text-pinkBtn text-lg font-bold lg:px-14 md:px-7">Achez</h1>
+      <h1 className="text-pinkBtn text-lg font-bold xs:px-4 lg:px-14 md:px-7">
+        Achez
+      </h1>
       {/* <nav
         className={`links ${
           display ? "visible" : "hidden"

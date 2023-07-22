@@ -11,7 +11,7 @@ import {
 
 const Skills = () => {
   return (
-    <section className="w-3/4 my-4 mx-auto">
+    <section className="w-3/4 my-4 mx-auto pb-4" id="skills">
       <h1 className="font-bold py-4">SKILLS</h1>
       <ul className="grid grid-cols-4 gap-4">
         <li className=" ">

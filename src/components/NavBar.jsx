@@ -34,9 +34,9 @@ const Navbar = () => {
       <div
         className={`links ${
           display ? "visible" : "hidden"
-        }  xs:fixed xs:py-4 xs:px-4 md:px-7 sm:static md:static md:items-center md:flex lg:static lg:flex lg:items-center lg:justify-between bottom-20 md:top-20 lg:top-20 left-0  bg-gray-200 bg-opacity-6 border-l border-gray-300 z-50  md:bg-white md:left-none  md:border-none md:z-0 lg:py-0 lg:px-7`}
+        }  xs:fixed xs:py-4 xs:px-4 md:px-7 sm:static md:static md:items-center sm:flex sm:items-center md:flex lg:static lg:flex lg:items-center lg:justify-between bottom-20 md:top-20 lg:top-20 left-0  bg-gray-200 bg-opacity-6 z-50  md:bg-white sm:bg-white md:left-none  md:border-none md:z-0 lg:py-0 lg:px-7`}
       >
-        <ul className="space-y-4 sm:flex  lg:flex lg:items-center md:ml-20 lg:ml-60">
+        <ul className="space-y-4 sm:flex sm:pb-4 lg:pb-3 lg:flex lg:items-center md:ml-20 lg:ml-60">
           <li
             onClick={() => {
               setDisplay(true);
@@ -45,7 +45,7 @@ const Navbar = () => {
           >
             <Link
               to="/"
-              className={`${styles.navLinks} hidden items-center hover:text-pinkBtn lg:pb-0`}
+              className={`${styles.navLinks} hidden items-center hover:text-pinkBtn lg:pb-0 font-bold`}
             >
               <FaHome /> Home
             </Link>
@@ -59,7 +59,7 @@ const Navbar = () => {
           >
             <Link
               to="/"
-              className={`${styles.navLinks} flex items-center hover:text-pinkBtn lg:px-4`}
+              className={`${styles.navLinks} flex items-center hover:text-pinkBtn lg:px-4 font-bold`}
             >
               <FaHome />
               Home
@@ -77,7 +77,7 @@ const Navbar = () => {
           >
             <Link
               to="/"
-              className={`${styles.navLinks} flex items-center hover:text-pinkBtn lg:px-4`}
+              className={`${styles.navLinks} flex items-center hover:text-pinkBtn lg:px-4 font-bold`}
             >
               <FaUser /> About
             </Link>
@@ -94,7 +94,7 @@ const Navbar = () => {
           >
             <Link
               to="/"
-              className={`${styles.navLinks} flex items-center hover:text-pinkBtn lg:px-4`}
+              className={`${styles.navLinks} flex items-center hover:text-pinkBtn lg:px-4 font-bold`}
             >
               <FaCode /> Skills
             </Link>
@@ -111,7 +111,7 @@ const Navbar = () => {
           >
             <Link
               to="/"
-              className={`${styles.navLinks} flex items-center hover:text-pinkBtn active:underline hover:underline lg:px-4`}
+              className={`${styles.navLinks} flex items-center hover:text-pinkBtn active:underline hover:underline lg:px-4 font-bold`}
             >
               <FaShoppingBag /> Projects
             </Link>
@@ -122,14 +122,14 @@ const Navbar = () => {
             href="https://drive.google.com/file/d/1Z0LsVdzbN2qKeCxZ-VgYtUQ1fpm396-h/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
-            className=" border  rounded-full px-4 py-1 bg-pinkBtn text-white hover:bg-primary lg:ml-60 md:ml-40"
+            className=" border  rounded-full px-4 py-1 bg-pinkBtn text-white hover:bg-primary lg:ml-60 md:ml-40 sm:ml-10"
           >
             Download CV
           </a>
         </div>
       </div>
       <button
-        className={`${styles.mobileNav} xs:ml-56 `}
+        className={`${styles.mobileNav} xs:ml-56 sm:hidden `}
         onClick={handleDisplay}
         aria-expanded={display}
       ></button>

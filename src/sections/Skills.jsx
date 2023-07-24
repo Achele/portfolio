@@ -12,7 +12,7 @@ import {
 const Skills = () => {
   return (
     <section className="w-3/4 my-4 mx-auto pb-4 xs:px-3" id="skills">
-      <h1 className="font-bold py-4">SKILLS</h1>
+      <h1 className="font-bold py-4 text-lg">SKILLS</h1>
       <ul className="grid grid-cols-4 gap-4">
         <li className=" ">
           <FaHtml5 className="text-red-500 w-12 text-xl" /> HTML5

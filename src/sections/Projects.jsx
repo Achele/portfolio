@@ -44,7 +44,7 @@ const Projects = () => {
                 </a>
               </span>
               <a
-                href="https://github.com/Achele/scissor"
+                href="https://github.com/Busybeebee11/smartlend-app/tree/main"
                 rel="noreferrer"
                 target="_blank"
                 className="border-primary rounded-full text-primary border py-1 px-4 lg:px-4  md:px-6 sm:text-xs md:text-xs sm:px-0  sm:text-center sm:py-1 hover:bg-primary hover:text-white"

@@ -119,7 +119,7 @@ const Navbar = () => {
         </ul>
         <div>
           <a
-            href="https://drive.google.com/file/d/1Z0LsVdzbN2qKeCxZ-VgYtUQ1fpm396-h/view?usp=sharing"
+            href="https://drive.google.com/file/d/1G47PZ2PNGnojxD5V6AA2C1sNIXeeJObQ/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className=" border  rounded-full px-4 py-1 bg-pinkBtn text-white hover:bg-primary lg:ml-60 md:ml-40 sm:ml-10"

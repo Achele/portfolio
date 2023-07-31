@@ -78,7 +78,7 @@ const Projects = () => {
             <div className="xs:py-3 sm:flex gap-2 sm:flex-col md:flex-row lg:flex-row">
               <span>
                 <a
-                  href="https://shortly-21c95.firebaseapp.com/"
+                  href="https://shortly-21c95.web.app/"
                   rel="noreferrer"
                   target="_blank"
                   className="text-white border rounded-full bg-pinkBtn py-1 px-4 md:px-4 md:text-xs sm:text-xs sm:mb-3 lg:px-4 lg:text-base hover:bg-primary hover:text-white xs:mr-2"

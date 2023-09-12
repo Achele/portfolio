@@ -88,7 +88,7 @@ const Projects = () => {
               </span>
 
               <a
-                href="https://github.com/Achele/scissor"
+                href="https://github.com/Achele/scissors"
                 rel="noreferrer"
                 target="_blank"
                 className="border-primary rounded-full text-primary border py-1 px-4 md:px-6 lg:px-4 sm:text-xs sm:px-0 md:text-xs  sm:text-center sm:py-1 hover:bg-primary hover:text-white"
